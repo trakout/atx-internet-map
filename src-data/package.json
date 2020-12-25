@@ -1,0 +1,17 @@
+{
+  "name": "atx-internet-speedmap-src-data",
+  "version": "1.0.0",
+  "description": "filter out coords by polygon region and write them to JSON",
+  "main": "shapefileParse.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Travis Nischuk",
+  "license": "AGPL-3.0-only",
+  "dependencies": {
+    "geolib": "^3.3.1",
+    "jsonfile": "^6.1.0",
+    "reverse-geocode": "^1.3.3",
+    "shapefile": "^0.6.6"
+  }
+}

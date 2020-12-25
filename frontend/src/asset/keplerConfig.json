@@ -1,0 +1,1177 @@
+{
+  "version": "v1",
+  "config": {
+    "visState": {
+      "filters": [],
+      "layers": [
+        {
+          "id": "3h5xodh",
+          "type": "heatmap",
+          "config": {
+            "dataId": "atx-internet-speed-fixed",
+            "label": "Fixed Latency (ms)",
+            "color": [
+              30,
+              150,
+              190
+            ],
+            "columns": {
+              "lat": "latitude",
+              "lng": "longitude"
+            },
+            "isVisible": false,
+            "visConfig": {
+              "opacity": 0.8,
+              "colorRange": {
+                "name": "Uber Viz Diverging 1.5",
+                "type": "diverging",
+                "category": "Uber",
+                "colors": [
+                  "#C22E00",
+                  "#DD7755",
+                  "#F8C0AA",
+                  "#BAE1E2",
+                  "#5DBABF",
+                  "#00939C"
+                ],
+                "reversed": true
+              },
+              "radius": 20
+            },
+            "hidden": false,
+            "textLabel": [
+              {
+                "field": null,
+                "color": [
+                  255,
+                  255,
+                  255
+                ],
+                "size": 18,
+                "offset": [
+                  0,
+                  0
+                ],
+                "anchor": "start",
+                "alignment": "center"
+              }
+            ]
+          },
+          "visualChannels": {
+            "weightField": {
+              "name": "Latency avg ms",
+              "type": "integer"
+            },
+            "weightScale": "linear"
+          }
+        },
+        {
+          "id": "q429gov",
+          "type": "cluster",
+          "config": {
+            "dataId": "atx-internet-speed-fixed",
+            "label": "Fixed Latency (ms)",
+            "color": [
+              241,
+              92,
+              23
+            ],
+            "columns": {
+              "lat": "latitude",
+              "lng": "longitude"
+            },
+            "isVisible": false,
+            "visConfig": {
+              "opacity": 0.8,
+              "clusterRadius": 40,
+              "colorRange": {
+                "name": "Global Warming",
+                "type": "sequential",
+                "category": "Uber",
+                "colors": [
+                  "#5A1846",
+                  "#900C3F",
+                  "#C70039",
+                  "#E3611C",
+                  "#F1920E",
+                  "#FFC300"
+                ],
+                "reversed": false
+              },
+              "radiusRange": [
+                1,
+                40
+              ],
+              "colorAggregation": "average"
+            },
+            "hidden": false,
+            "textLabel": [
+              {
+                "field": null,
+                "color": [
+                  255,
+                  255,
+                  255
+                ],
+                "size": 18,
+                "offset": [
+                  0,
+                  0
+                ],
+                "anchor": "start",
+                "alignment": "center"
+              }
+            ]
+          },
+          "visualChannels": {
+            "colorField": {
+              "name": "Latency avg ms",
+              "type": "integer"
+            },
+            "colorScale": "quantile"
+          }
+        },
+        {
+          "id": "gfba90g",
+          "type": "heatmap",
+          "config": {
+            "dataId": "atx-internet-speed-fixed",
+            "label": "Fixed Download Speed",
+            "color": [
+              18,
+              92,
+              119
+            ],
+            "columns": {
+              "lat": "latitude",
+              "lng": "longitude"
+            },
+            "isVisible": false,
+            "visConfig": {
+              "opacity": 0.65,
+              "colorRange": {
+                "name": "Uber Viz Diverging 1.5",
+                "type": "diverging",
+                "category": "Uber",
+                "colors": [
+                  "#00939C",
+                  "#5DBABF",
+                  "#BAE1E2",
+                  "#F8C0AA",
+                  "#DD7755",
+                  "#C22E00"
+                ]
+              },
+              "radius": 20
+            },
+            "hidden": false,
+            "textLabel": [
+              {
+                "field": null,
+                "color": [
+                  255,
+                  255,
+                  255
+                ],
+                "size": 18,
+                "offset": [
+                  0,
+                  0
+                ],
+                "anchor": "start",
+                "alignment": "center"
+              }
+            ]
+          },
+          "visualChannels": {
+            "weightField": {
+              "name": "Download avg kbps",
+              "type": "integer"
+            },
+            "weightScale": "linear"
+          }
+        },
+        {
+          "id": "nxu2yfl",
+          "type": "cluster",
+          "config": {
+            "dataId": "atx-internet-speed-fixed",
+            "label": "Fixed Download Speed",
+            "color": [
+              218,
+              112,
+              191
+            ],
+            "columns": {
+              "lat": "latitude",
+              "lng": "longitude"
+            },
+            "isVisible": false,
+            "visConfig": {
+              "opacity": 0.8,
+              "clusterRadius": 40,
+              "colorRange": {
+                "name": "Global Warming",
+                "type": "sequential",
+                "category": "Uber",
+                "colors": [
+                  "#5A1846",
+                  "#900C3F",
+                  "#C70039",
+                  "#E3611C",
+                  "#F1920E",
+                  "#FFC300"
+                ]
+              },
+              "radiusRange": [
+                1,
+                40
+              ],
+              "colorAggregation": "average"
+            },
+            "hidden": false,
+            "textLabel": [
+              {
+                "field": null,
+                "color": [
+                  255,
+                  255,
+                  255
+                ],
+                "size": 18,
+                "offset": [
+                  0,
+                  0
+                ],
+                "anchor": "start",
+                "alignment": "center"
+              }
+            ]
+          },
+          "visualChannels": {
+            "colorField": {
+              "name": "Download avg kbps",
+              "type": "integer"
+            },
+            "colorScale": "quantile"
+          }
+        },
+        {
+          "id": "94dzj17",
+          "type": "grid",
+          "config": {
+            "dataId": "atx-internet-speed-fixed",
+            "label": "Fixed Download Speed Grid",
+            "color": [
+              255,
+              203,
+              153
+            ],
+            "columns": {
+              "lat": "latitude",
+              "lng": "longitude"
+            },
+            "isVisible": false,
+            "visConfig": {
+              "opacity": 0.25,
+              "worldUnitSize": 1,
+              "colorRange": {
+                "name": "Global Warming",
+                "type": "sequential",
+                "category": "Uber",
+                "colors": [
+                  "#5A1846",
+                  "#900C3F",
+                  "#C70039",
+                  "#E3611C",
+                  "#F1920E",
+                  "#FFC300"
+                ]
+              },
+              "coverage": 1,
+              "sizeRange": [
+                0,
+                500
+              ],
+              "percentile": [
+                0,
+                100
+              ],
+              "elevationPercentile": [
+                0,
+                100
+              ],
+              "elevationScale": 5,
+              "colorAggregation": "average",
+              "sizeAggregation": "count",
+              "enable3d": false
+            },
+            "hidden": false,
+            "textLabel": [
+              {
+                "field": null,
+                "color": [
+                  255,
+                  255,
+                  255
+                ],
+                "size": 18,
+                "offset": [
+                  0,
+                  0
+                ],
+                "anchor": "start",
+                "alignment": "center"
+              }
+            ]
+          },
+          "visualChannels": {
+            "colorField": {
+              "name": "Download avg kbps",
+              "type": "integer"
+            },
+            "colorScale": "quantile",
+            "sizeField": null,
+            "sizeScale": "linear"
+          }
+        },
+        {
+          "id": "q07yrqo",
+          "type": "heatmap",
+          "config": {
+            "dataId": "atx-internet-speed-fixed",
+            "label": "Fixed Upload Speed",
+            "color": [
+              221,
+              178,
+              124
+            ],
+            "columns": {
+              "lat": "latitude",
+              "lng": "longitude"
+            },
+            "isVisible": true,
+            "visConfig": {
+              "opacity": 0.59,
+              "colorRange": {
+                "name": "Uber Viz Diverging 1.5",
+                "type": "diverging",
+                "category": "Uber",
+                "colors": [
+                  "#00939C",
+                  "#5DBABF",
+                  "#BAE1E2",
+                  "#F8C0AA",
+                  "#DD7755",
+                  "#C22E00"
+                ]
+              },
+              "radius": 21.4
+            },
+            "hidden": false,
+            "textLabel": [
+              {
+                "field": null,
+                "color": [
+                  255,
+                  255,
+                  255
+                ],
+                "size": 18,
+                "offset": [
+                  0,
+                  0
+                ],
+                "anchor": "start",
+                "alignment": "center"
+              }
+            ]
+          },
+          "visualChannels": {
+            "weightField": {
+              "name": "Upload avg kbps",
+              "type": "integer"
+            },
+            "weightScale": "linear"
+          }
+        },
+        {
+          "id": "n4v1rx",
+          "type": "cluster",
+          "config": {
+            "dataId": "atx-internet-speed-fixed",
+            "label": "Fixed Upload Speed",
+            "color": [
+              130,
+              154,
+              227
+            ],
+            "columns": {
+              "lat": "latitude",
+              "lng": "longitude"
+            },
+            "isVisible": false,
+            "visConfig": {
+              "opacity": 0.8,
+              "clusterRadius": 40,
+              "colorRange": {
+                "name": "Global Warming",
+                "type": "sequential",
+                "category": "Uber",
+                "colors": [
+                  "#5A1846",
+                  "#900C3F",
+                  "#C70039",
+                  "#E3611C",
+                  "#F1920E",
+                  "#FFC300"
+                ]
+              },
+              "radiusRange": [
+                1,
+                40
+              ],
+              "colorAggregation": "average"
+            },
+            "hidden": false,
+            "textLabel": [
+              {
+                "field": null,
+                "color": [
+                  255,
+                  255,
+                  255
+                ],
+                "size": 18,
+                "offset": [
+                  0,
+                  0
+                ],
+                "anchor": "start",
+                "alignment": "center"
+              }
+            ]
+          },
+          "visualChannels": {
+            "colorField": {
+              "name": "Upload avg kbps",
+              "type": "integer"
+            },
+            "colorScale": "quantile"
+          }
+        },
+        {
+          "id": "exop9ii",
+          "type": "grid",
+          "config": {
+            "dataId": "atx-internet-speed-fixed",
+            "label": "Fixed Upload Speed",
+            "color": [
+              136,
+              87,
+              44
+            ],
+            "columns": {
+              "lat": "latitude",
+              "lng": "longitude"
+            },
+            "isVisible": false,
+            "visConfig": {
+              "opacity": 0.25,
+              "worldUnitSize": 1,
+              "colorRange": {
+                "name": "Global Warming",
+                "type": "sequential",
+                "category": "Uber",
+                "colors": [
+                  "#5A1846",
+                  "#900C3F",
+                  "#C70039",
+                  "#E3611C",
+                  "#F1920E",
+                  "#FFC300"
+                ]
+              },
+              "coverage": 1,
+              "sizeRange": [
+                0,
+                500
+              ],
+              "percentile": [
+                0,
+                100
+              ],
+              "elevationPercentile": [
+                0,
+                100
+              ],
+              "elevationScale": 5,
+              "colorAggregation": "average",
+              "sizeAggregation": "count",
+              "enable3d": false
+            },
+            "hidden": false,
+            "textLabel": [
+              {
+                "field": null,
+                "color": [
+                  255,
+                  255,
+                  255
+                ],
+                "size": 18,
+                "offset": [
+                  0,
+                  0
+                ],
+                "anchor": "start",
+                "alignment": "center"
+              }
+            ]
+          },
+          "visualChannels": {
+            "colorField": {
+              "name": "Upload avg kbps",
+              "type": "integer"
+            },
+            "colorScale": "quantile",
+            "sizeField": null,
+            "sizeScale": "linear"
+          }
+        },
+        {
+          "id": "3h5xodi",
+          "type": "heatmap",
+          "config": {
+            "dataId": "atx-internet-speed-mobile",
+            "label": "Fixed Latency (ms)",
+            "color": [
+              30,
+              150,
+              190
+            ],
+            "columns": {
+              "lat": "latitude",
+              "lng": "longitude"
+            },
+            "isVisible": false,
+            "visConfig": {
+              "opacity": 0.8,
+              "colorRange": {
+                "name": "Uber Viz Diverging 1.5",
+                "type": "diverging",
+                "category": "Uber",
+                "colors": [
+                  "#C22E00",
+                  "#DD7755",
+                  "#F8C0AA",
+                  "#BAE1E2",
+                  "#5DBABF",
+                  "#00939C"
+                ],
+                "reversed": true
+              },
+              "radius": 20
+            },
+            "hidden": false,
+            "textLabel": [
+              {
+                "field": null,
+                "color": [
+                  255,
+                  255,
+                  255
+                ],
+                "size": 18,
+                "offset": [
+                  0,
+                  0
+                ],
+                "anchor": "start",
+                "alignment": "center"
+              }
+            ]
+          },
+          "visualChannels": {
+            "weightField": {
+              "name": "Latency avg ms",
+              "type": "integer"
+            },
+            "weightScale": "linear"
+          }
+        },
+        {
+          "id": "q429gow",
+          "type": "cluster",
+          "config": {
+            "dataId": "atx-internet-speed-mobile",
+            "label": "Fixed Latency (ms)",
+            "color": [
+              241,
+              92,
+              23
+            ],
+            "columns": {
+              "lat": "latitude",
+              "lng": "longitude"
+            },
+            "isVisible": false,
+            "visConfig": {
+              "opacity": 0.8,
+              "clusterRadius": 40,
+              "colorRange": {
+                "name": "Global Warming",
+                "type": "sequential",
+                "category": "Uber",
+                "colors": [
+                  "#5A1846",
+                  "#900C3F",
+                  "#C70039",
+                  "#E3611C",
+                  "#F1920E",
+                  "#FFC300"
+                ],
+                "reversed": false
+              },
+              "radiusRange": [
+                1,
+                40
+              ],
+              "colorAggregation": "average"
+            },
+            "hidden": false,
+            "textLabel": [
+              {
+                "field": null,
+                "color": [
+                  255,
+                  255,
+                  255
+                ],
+                "size": 18,
+                "offset": [
+                  0,
+                  0
+                ],
+                "anchor": "start",
+                "alignment": "center"
+              }
+            ]
+          },
+          "visualChannels": {
+            "colorField": {
+              "name": "Latency avg ms",
+              "type": "integer"
+            },
+            "colorScale": "quantile"
+          }
+        },
+        {
+          "id": "ggba90g",
+          "type": "heatmap",
+          "config": {
+            "dataId": "atx-internet-speed-mobile",
+            "label": "Fixed Download Speed",
+            "color": [
+              18,
+              92,
+              119
+            ],
+            "columns": {
+              "lat": "latitude",
+              "lng": "longitude"
+            },
+            "isVisible": false,
+            "visConfig": {
+              "opacity": 0.65,
+              "colorRange": {
+                "name": "Uber Viz Diverging 1.5",
+                "type": "diverging",
+                "category": "Uber",
+                "colors": [
+                  "#00939C",
+                  "#5DBABF",
+                  "#BAE1E2",
+                  "#F8C0AA",
+                  "#DD7755",
+                  "#C22E00"
+                ]
+              },
+              "radius": 20
+            },
+            "hidden": false,
+            "textLabel": [
+              {
+                "field": null,
+                "color": [
+                  255,
+                  255,
+                  255
+                ],
+                "size": 18,
+                "offset": [
+                  0,
+                  0
+                ],
+                "anchor": "start",
+                "alignment": "center"
+              }
+            ]
+          },
+          "visualChannels": {
+            "weightField": {
+              "name": "Download avg kbps",
+              "type": "integer"
+            },
+            "weightScale": "linear"
+          }
+        },
+        {
+          "id": "nxu2yfk",
+          "type": "cluster",
+          "config": {
+            "dataId": "atx-internet-speed-mobile",
+            "label": "Fixed Download Speed",
+            "color": [
+              218,
+              112,
+              191
+            ],
+            "columns": {
+              "lat": "latitude",
+              "lng": "longitude"
+            },
+            "isVisible": false,
+            "visConfig": {
+              "opacity": 0.8,
+              "clusterRadius": 40,
+              "colorRange": {
+                "name": "Global Warming",
+                "type": "sequential",
+                "category": "Uber",
+                "colors": [
+                  "#5A1846",
+                  "#900C3F",
+                  "#C70039",
+                  "#E3611C",
+                  "#F1920E",
+                  "#FFC300"
+                ]
+              },
+              "radiusRange": [
+                1,
+                40
+              ],
+              "colorAggregation": "average"
+            },
+            "hidden": false,
+            "textLabel": [
+              {
+                "field": null,
+                "color": [
+                  255,
+                  255,
+                  255
+                ],
+                "size": 18,
+                "offset": [
+                  0,
+                  0
+                ],
+                "anchor": "start",
+                "alignment": "center"
+              }
+            ]
+          },
+          "visualChannels": {
+            "colorField": {
+              "name": "Download avg kbps",
+              "type": "integer"
+            },
+            "colorScale": "quantile"
+          }
+        },
+        {
+          "id": "94dzj10",
+          "type": "grid",
+          "config": {
+            "dataId": "atx-internet-speed-mobile",
+            "label": "Fixed Download Speed Grid",
+            "color": [
+              255,
+              203,
+              153
+            ],
+            "columns": {
+              "lat": "latitude",
+              "lng": "longitude"
+            },
+            "isVisible": false,
+            "visConfig": {
+              "opacity": 0.25,
+              "worldUnitSize": 1,
+              "colorRange": {
+                "name": "Global Warming",
+                "type": "sequential",
+                "category": "Uber",
+                "colors": [
+                  "#5A1846",
+                  "#900C3F",
+                  "#C70039",
+                  "#E3611C",
+                  "#F1920E",
+                  "#FFC300"
+                ]
+              },
+              "coverage": 1,
+              "sizeRange": [
+                0,
+                500
+              ],
+              "percentile": [
+                0,
+                100
+              ],
+              "elevationPercentile": [
+                0,
+                100
+              ],
+              "elevationScale": 5,
+              "colorAggregation": "average",
+              "sizeAggregation": "count",
+              "enable3d": false
+            },
+            "hidden": false,
+            "textLabel": [
+              {
+                "field": null,
+                "color": [
+                  255,
+                  255,
+                  255
+                ],
+                "size": 18,
+                "offset": [
+                  0,
+                  0
+                ],
+                "anchor": "start",
+                "alignment": "center"
+              }
+            ]
+          },
+          "visualChannels": {
+            "colorField": {
+              "name": "Download avg kbps",
+              "type": "integer"
+            },
+            "colorScale": "quantile",
+            "sizeField": null,
+            "sizeScale": "linear"
+          }
+        },
+        {
+          "id": "q07yrqp",
+          "type": "heatmap",
+          "config": {
+            "dataId": "atx-internet-speed-mobile",
+            "label": "Fixed Upload Speed",
+            "color": [
+              221,
+              178,
+              124
+            ],
+            "columns": {
+              "lat": "latitude",
+              "lng": "longitude"
+            },
+            "isVisible": false,
+            "visConfig": {
+              "opacity": 0.59,
+              "colorRange": {
+                "name": "Uber Viz Diverging 1.5",
+                "type": "diverging",
+                "category": "Uber",
+                "colors": [
+                  "#00939C",
+                  "#5DBABF",
+                  "#BAE1E2",
+                  "#F8C0AA",
+                  "#DD7755",
+                  "#C22E00"
+                ]
+              },
+              "radius": 21.4
+            },
+            "hidden": false,
+            "textLabel": [
+              {
+                "field": null,
+                "color": [
+                  255,
+                  255,
+                  255
+                ],
+                "size": 18,
+                "offset": [
+                  0,
+                  0
+                ],
+                "anchor": "start",
+                "alignment": "center"
+              }
+            ]
+          },
+          "visualChannels": {
+            "weightField": {
+              "name": "Upload avg kbps",
+              "type": "integer"
+            },
+            "weightScale": "linear"
+          }
+        },
+        {
+          "id": "n4v1ry",
+          "type": "cluster",
+          "config": {
+            "dataId": "atx-internet-speed-mobile",
+            "label": "Fixed Upload Speed",
+            "color": [
+              130,
+              154,
+              227
+            ],
+            "columns": {
+              "lat": "latitude",
+              "lng": "longitude"
+            },
+            "isVisible": false,
+            "visConfig": {
+              "opacity": 0.8,
+              "clusterRadius": 40,
+              "colorRange": {
+                "name": "Global Warming",
+                "type": "sequential",
+                "category": "Uber",
+                "colors": [
+                  "#5A1846",
+                  "#900C3F",
+                  "#C70039",
+                  "#E3611C",
+                  "#F1920E",
+                  "#FFC300"
+                ]
+              },
+              "radiusRange": [
+                1,
+                40
+              ],
+              "colorAggregation": "average"
+            },
+            "hidden": false,
+            "textLabel": [
+              {
+                "field": null,
+                "color": [
+                  255,
+                  255,
+                  255
+                ],
+                "size": 18,
+                "offset": [
+                  0,
+                  0
+                ],
+                "anchor": "start",
+                "alignment": "center"
+              }
+            ]
+          },
+          "visualChannels": {
+            "colorField": {
+              "name": "Upload avg kbps",
+              "type": "integer"
+            },
+            "colorScale": "quantile"
+          }
+        },
+        {
+          "id": "exop9ji",
+          "type": "grid",
+          "config": {
+            "dataId": "atx-internet-speed-mobile",
+            "label": "Fixed Upload Speed",
+            "color": [
+              136,
+              87,
+              44
+            ],
+            "columns": {
+              "lat": "latitude",
+              "lng": "longitude"
+            },
+            "isVisible": false,
+            "visConfig": {
+              "opacity": 0.25,
+              "worldUnitSize": 1,
+              "colorRange": {
+                "name": "Global Warming",
+                "type": "sequential",
+                "category": "Uber",
+                "colors": [
+                  "#5A1846",
+                  "#900C3F",
+                  "#C70039",
+                  "#E3611C",
+                  "#F1920E",
+                  "#FFC300"
+                ]
+              },
+              "coverage": 1,
+              "sizeRange": [
+                0,
+                500
+              ],
+              "percentile": [
+                0,
+                100
+              ],
+              "elevationPercentile": [
+                0,
+                100
+              ],
+              "elevationScale": 5,
+              "colorAggregation": "average",
+              "sizeAggregation": "count",
+              "enable3d": false
+            },
+            "hidden": false,
+            "textLabel": [
+              {
+                "field": null,
+                "color": [
+                  255,
+                  255,
+                  255
+                ],
+                "size": 18,
+                "offset": [
+                  0,
+                  0
+                ],
+                "anchor": "start",
+                "alignment": "center"
+              }
+            ]
+          },
+          "visualChannels": {
+            "colorField": {
+              "name": "Upload avg kbps",
+              "type": "integer"
+            },
+            "colorScale": "quantile",
+            "sizeField": null,
+            "sizeScale": "linear"
+          }
+        }
+      ],
+      "interactionConfig": {
+        "tooltip": {
+          "fieldsToShow": {
+            "atx-internet-speed-fixed": [
+              {
+                "name": "Download avg kbps",
+                "format": null
+              },
+              {
+                "name": "Upload avg kbps",
+                "format": null
+              },
+              {
+                "name": "Latency avg ms",
+                "format": null
+              },
+              {
+                "name": "Device count",
+                "format": null
+              },
+              {
+                "name": "Test count",
+                "format": null
+              }
+            ],
+            "atx-internet-speed-mobile": [
+              {
+                "name": "Download avg kbps",
+                "format": null
+              },
+              {
+                "name": "Upload avg kbps",
+                "format": null
+              },
+              {
+                "name": "Latency avg ms",
+                "format": null
+              },
+              {
+                "name": "Device count",
+                "format": null
+              },
+              {
+                "name": "Test count",
+                "format": null
+              }
+            ]
+          },
+          "compareMode": false,
+          "compareType": "absolute",
+          "enabled": true
+        },
+        "brush": {
+          "size": 0.5,
+          "enabled": false
+        },
+        "geocoder": {
+          "enabled": true
+        },
+        "coordinate": {
+          "enabled": false
+        }
+      },
+      "layerBlending": "normal",
+      "splitMaps": [],
+      "animationConfig": {
+        "currentTime": null,
+        "speed": 1
+      }
+    },
+    "mapState": {
+      "bearing": 0,
+      "dragRotate": false,
+      "latitude": 30.2803605,
+      "longitude": -97.61627200000001,
+      "pitch": 0,
+      "zoom": 9,
+      "isSplit": false
+    },
+    "mapStyle": {
+      "styleType": "dark",
+      "topLayerGroups": {},
+      "visibleLayerGroups": {
+        "label": true,
+        "road": true,
+        "border": false,
+        "building": true,
+        "water": true,
+        "land": true,
+        "3d building": false
+      },
+      "threeDBuildingColor": [
+        9.665468314072013,
+        17.18305478057247,
+        31.1442867897876
+      ],
+      "mapStyles": {}
+    }
+  }
+}
