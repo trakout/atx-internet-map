@@ -1,7 +1,8 @@
 {
   "name": "frontend",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
+  "homepage": "https://trakout.github.io/atx-internet-map",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
@@ -11,10 +12,8 @@
     "@types/react": "^16.9.53",
     "@types/react-dom": "^16.9.8",
     "kepler.gl": "^2.4.0",
-    "leaflet": "^1.7.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
-    "react-leaflet": "^3.0.5",
     "react-palm": "^3.3.6",
     "react-redux": "^7.2.2",
     "react-scripts": "4.0.1",
@@ -48,7 +47,6 @@
     ]
   },
   "devDependencies": {
-    "@types/leaflet": "^1.5.19",
     "@types/react-redux": "^7.1.14"
   }
 }
