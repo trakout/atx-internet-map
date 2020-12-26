@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/atx-internet-map/static/css/main.e7b52424.chunk.css",
-    "main.js": "/atx-internet-map/static/js/main.3ee7bdab.chunk.js",
-    "main.js.map": "/atx-internet-map/static/js/main.3ee7bdab.chunk.js.map",
+    "main.js": "/atx-internet-map/static/js/main.b0ddd1e0.chunk.js",
+    "main.js.map": "/atx-internet-map/static/js/main.b0ddd1e0.chunk.js.map",
     "runtime-main.js": "/atx-internet-map/static/js/runtime-main.9624acec.js",
     "runtime-main.js.map": "/atx-internet-map/static/js/runtime-main.9624acec.js.map",
     "static/css/2.48b1c4ec.chunk.css": "/atx-internet-map/static/css/2.48b1c4ec.chunk.css",
@@ -18,6 +18,6 @@
     "static/css/2.48b1c4ec.chunk.css",
     "static/js/2.d4fca86f.chunk.js",
     "static/css/main.e7b52424.chunk.css",
-    "static/js/main.3ee7bdab.chunk.js"
+    "static/js/main.b0ddd1e0.chunk.js"
   ]
 }
