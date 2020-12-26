@@ -350,7 +350,7 @@
               "lat": "latitude",
               "lng": "longitude"
             },
-            "isVisible": true,
+            "isVisible": false,
             "visConfig": {
               "opacity": 0.59,
               "colorRange": {
@@ -544,7 +544,7 @@
           "type": "heatmap",
           "config": {
             "dataId": "atx-internet-speed-mobile",
-            "label": "Fixed Latency (ms)",
+            "label": "Mobile Latency (ms)",
             "color": [
               30,
               150,
@@ -605,7 +605,7 @@
           "type": "cluster",
           "config": {
             "dataId": "atx-internet-speed-mobile",
-            "label": "Fixed Latency (ms)",
+            "label": "Mobile Latency (ms)",
             "color": [
               241,
               92,
@@ -671,7 +671,7 @@
           "type": "heatmap",
           "config": {
             "dataId": "atx-internet-speed-mobile",
-            "label": "Fixed Download Speed",
+            "label": "Mobile Download Speed",
             "color": [
               18,
               92,
@@ -731,7 +731,7 @@
           "type": "cluster",
           "config": {
             "dataId": "atx-internet-speed-mobile",
-            "label": "Fixed Download Speed",
+            "label": "Mobile Download Speed",
             "color": [
               218,
               112,
@@ -796,7 +796,7 @@
           "type": "grid",
           "config": {
             "dataId": "atx-internet-speed-mobile",
-            "label": "Fixed Download Speed Grid",
+            "label": "Mobile Download Speed Grid",
             "color": [
               255,
               203,
@@ -875,7 +875,7 @@
           "type": "heatmap",
           "config": {
             "dataId": "atx-internet-speed-mobile",
-            "label": "Fixed Upload Speed",
+            "label": "Mobile Upload Speed",
             "color": [
               221,
               178,
@@ -935,7 +935,7 @@
           "type": "cluster",
           "config": {
             "dataId": "atx-internet-speed-mobile",
-            "label": "Fixed Upload Speed",
+            "label": "Mobile Upload Speed",
             "color": [
               130,
               154,
@@ -1000,7 +1000,7 @@
           "type": "grid",
           "config": {
             "dataId": "atx-internet-speed-mobile",
-            "label": "Fixed Upload Speed",
+            "label": "Mobile Upload Speed",
             "color": [
               136,
               87,
@@ -1148,10 +1148,10 @@
     "mapState": {
       "bearing": 0,
       "dragRotate": false,
-      "latitude": 30.340565056494885,
-      "longitude": -97.73203684901395,
+      "latitude": 30.249076218745127,
+      "longitude": -97.62090195537802,
       "pitch": 0,
-      "zoom": 9.67162444481395,
+      "zoom": 9.332241360763717,
       "isSplit": false
     },
     "mapStyle": {
