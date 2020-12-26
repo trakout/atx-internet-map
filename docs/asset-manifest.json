@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/atx-internet-map/static/css/main.e7b52424.chunk.css",
+    "main.js": "/atx-internet-map/static/js/main.1219a595.chunk.js",
+    "main.js.map": "/atx-internet-map/static/js/main.1219a595.chunk.js.map",
+    "runtime-main.js": "/atx-internet-map/static/js/runtime-main.9624acec.js",
+    "runtime-main.js.map": "/atx-internet-map/static/js/runtime-main.9624acec.js.map",
+    "static/css/2.48b1c4ec.chunk.css": "/atx-internet-map/static/css/2.48b1c4ec.chunk.css",
+    "static/js/2.d4fca86f.chunk.js": "/atx-internet-map/static/js/2.d4fca86f.chunk.js",
+    "static/js/2.d4fca86f.chunk.js.map": "/atx-internet-map/static/js/2.d4fca86f.chunk.js.map",
+    "index.html": "/atx-internet-map/index.html",
+    "static/css/2.48b1c4ec.chunk.css.map": "/atx-internet-map/static/css/2.48b1c4ec.chunk.css.map",
+    "static/css/main.e7b52424.chunk.css.map": "/atx-internet-map/static/css/main.e7b52424.chunk.css.map",
+    "static/js/2.d4fca86f.chunk.js.LICENSE.txt": "/atx-internet-map/static/js/2.d4fca86f.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9624acec.js",
+    "static/css/2.48b1c4ec.chunk.css",
+    "static/js/2.d4fca86f.chunk.js",
+    "static/css/main.e7b52424.chunk.css",
+    "static/js/main.1219a595.chunk.js"
+  ]
+}

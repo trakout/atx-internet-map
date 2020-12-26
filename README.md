@@ -6,6 +6,7 @@
 * Typescript+React w/ react-create-app
 * [kepler.gl](https://github.com/keplergl/kepler.gl)
 * [Mapbox](https://docs.mapbox.com/)
+* Published frontend is served from `./docs`
 
 #### Methodology: /src-data 
 * Data Source is from Ookla's open speedtest data
