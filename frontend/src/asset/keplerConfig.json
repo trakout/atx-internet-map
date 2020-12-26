@@ -1148,30 +1148,39 @@
     "mapState": {
       "bearing": 0,
       "dragRotate": false,
-      "latitude": 30.2803605,
-      "longitude": -97.61627200000001,
+      "latitude": 30.340565056494885,
+      "longitude": -97.73203684901395,
       "pitch": 0,
-      "zoom": 9,
+      "zoom": 9.67162444481395,
       "isSplit": false
     },
     "mapStyle": {
-      "styleType": "dark",
-      "topLayerGroups": {},
+      "styleType": "6r15c2",
+      "topLayerGroups": {
+        "road": false,
+        "building": false
+      },
       "visibleLayerGroups": {
         "label": true,
         "road": true,
-        "border": false,
         "building": true,
-        "water": true,
-        "land": true,
-        "3d building": false
+        "water": true
       },
       "threeDBuildingColor": [
         9.665468314072013,
         17.18305478057247,
         31.1442867897876
       ],
-      "mapStyles": {}
+      "mapStyles": {
+        "6r15c2": {
+          "accessToken": null,
+          "custom": true,
+          "icon": "https://api.mapbox.com/styles/v1/trakout/ckj4zlcd22gou19p59buoafs8/static/-122.3391,37.7922,9,0,0/400x300?access_token=pk.eyJ1IjoidHJha291dCIsImEiOiJja2o0ZzNwZWUxMDg2MndwZDh5eGRhcDllIn0.1ej3nzsHUmHNw8YyfSBE0Q&logo=false&attribution=false",
+          "id": "6r15c2",
+          "label": "Decimal",
+          "url": "mapbox://styles/trakout/ckj4zlcd22gou19p59buoafs8"
+        }
+      }
     }
   }
 }
